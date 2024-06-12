@@ -1,0 +1,171 @@
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 5px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: crimson;
+    margin: 20px;
+    font-size: larger;
+}
+nav ul li a:hover{
+    text-shadow: 3px 3px 10px rgb(255, 31, 7);
+
+}
+video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 70%;
+    color: azure;
+    left: 80%;
+
+}
+h1:hover{
+    color: cyan;
+    text-decoration: underline;
+    text-shadow: 5px 5px 8px;
+    animation: backwards;
+}
+#home{
+    display: flex;
+    height: 1200px;
+    flex-direction: column;
+
+}
+#home::before{
+    content: "";
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/John_Cena_July_2018.jpg/1200px-John_Cena_July_2018.jpg);
+    height: 100%;
+    /* width: 100%; */
+    background-size: cover;
+}
+.main{
+border: 2px inset blueviolet;
+padding: 10px;
+position: absolute;
+height: 70px;
+left: 80%;
+margin-top: 50%;
+/* box-shadow: 2px 4px black; */
+
+}
+.main:hover{
+    box-shadow: 2px  5px rgb(255, 7, 7);
+    scale: 1.05;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.pic{
+display: flex;
+height: 350px;
+}
+.pic img{
+    width: 300pz;
+    height: 300px;
+}
+.pic  h4{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+.pic p{
+    text-align: justify;
+    margin: 20px;
+    font-size: medium;
+}
+h3{
+    padding-top: 10px;
+    text-align: center;
+    background-color: grey;
+    height: 50px;
+}
+.gallery{
+    /* box-shadow: 2px 2px 2px 2px  rgb(255, 0, 0); */
+    border: 10px ridge rgb(172, 107, 107);
+}
+.gallery img{
+    
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 350px;
+    height: 700px;
+    margin: 10px;
+    border: 4px inset blue;
+    background: linear-gradient(to top, rgb(129, 25, 226) 50%, rgb(35, 161, 219) 50%);
+    background-size: 100% 200%;
+    transition: all 0.5s;
+}
+.box:hover{
+    background-position: left bottom;
+    box-shadow: 4px 6px 8px rgb(13, 219, 219);
+}
+.box img{
+    width: 340px;
+    height: 200px;
+}
+.box p{
+    text-align: justify;
+    margin: 4px;
+}
+.box h5{
+font-size: larger;
+color: blueviolet;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: wheat;
+    background-color: green;
+    cursor: pointer;
+    height: 30px;
+}
+.cv{
+    background-color: brown;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+   margin-left: 50%;
+   border-radius: 30%;
+
+}
